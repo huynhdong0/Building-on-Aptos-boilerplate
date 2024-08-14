@@ -22,4 +22,6 @@ module metaschool::calculator_l05
         let calculator = borrow_global<Message>(signer::address_of(account));
         calculator.my_message
     }
+    
+    
 }
